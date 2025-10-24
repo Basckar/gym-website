@@ -1,0 +1,181 @@
+@media screen and   (max-width: 480px) {
+   
+  .header-page{
+    display: none;
+  }
+  /* .menubar{
+    display: flex;
+  } */
+   .btns{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   }
+   .btn-slider{
+        margin-top: 10px;
+   }
+   .section-shoping {
+    width: 80%;
+    margin: 1rem;
+}
+   h1 {
+    font-size: 250%;
+   }
+   
+  .shop-shop-slider__btn  , .shop-dots{
+    display: none !important;
+  }
+  .contact-text {
+    width: 100%;
+    }
+  .contact>img { 
+    height: 15rem;
+  }
+  .contact-text>button { 
+    left: 1rem;
+    top: 14.5rem;
+  } 
+   
+.peples { 
+    height: 12rem;
+  }
+  .comment-title {
+    font-size: 100%;
+  }
+  .comment { 
+    padding: 2rem 1rem;
+  }
+   
+
+  
+.passes>hr{
+  display: none;
+}
+.passesGym {  
+  height: 40rem;
+}
+ 
+
+
+ 
+  .blog {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-item {
+    display: none;
+  }
+
+  .blog-item:first-child {
+    display: block;
+  }
+  .blogGym-title > p { 
+    width: 100%;
+}
+ 
+  .footer-bg>h1 {
+
+    text-align: center;
+  }
+  
+  .footer-text { 
+    flex-direction: column;
+            gap: 3rem;
+                margin: 2rem;
+  }
+   
+  
+  footer>p {
+   margin: 0 2rem;
+  }
+   
+}
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* دو ستون */
+    grid-template-areas:
+      "item1 item2"
+      "item3 item3"
+      "item4 item4";
+  }
+
+  .item:nth-child(1) { grid-area: item1;height: 8rem;
+        width: 8rem; }
+  .item:nth-child(2) { grid-area: item2;height: 8rem;
+        width: 8rem; }
+  .item:nth-child(3) { grid-area: item3; }
+  .item:nth-child(4) { grid-area: item4; }
+  .person>img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .comment-btn { 
+    left: 20rem;
+  }
+}
+
+
+@media screen and   (max-width: 840px) {
+.footer-text-svg {
+    width:100%;
+  }
+
+.input-wrapper { 
+    flex-direction: column;
+    width: 70%;
+    gap: 3rem;
+  }
+  .input-wrapper>button{
+    width: 100%;
+  }
+
+  .shop-shop-slider { 
+    height: 60rem !important;
+  }
+  .CoachGym>h1 , .CoachGym>p {
+          padding: 0 1rem;
+        width: 100%;
+}
+.testimonial > img {
+    width: 25rem;
+}
+
+}
+
+@media screen and (max-width: 530px) {
+    .footer-text-link {
+        grid-template-columns: auto auto;
+    }
+    .input-wrapper { 
+    flex-direction: column;
+    width: 100%;
+    gap: 3rem;
+  }
+  .input-wrapper>button{
+    width: 100%;
+  }
+   
+}
+ 
+
+@media screen and (max-width: 1297px) {
+ 
+ .shop-shop-slider { 
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 625px) {
+ 
+ .comment-btn { 
+            left: 11rem;
+        top: 9rem;
+  }
+}
+@media screen and (max-width: 360px) {
+ 
+ .comment-btn { 
+            left: 10.5rem; 
+  }
+}
