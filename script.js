@@ -41,9 +41,11 @@ const slider = function () {
   // Functions
 
   const goToSlide = function (slide) {
-    slides.forEach(
-      (s, i) => (s.style.transform = `translateX(${100 * (i - slide)}%)`)
-    );
+    slides.forEach((s, i) => {
+      s.style.transform = `translateX(${100 * (i - slide)}%)`;
+      s.classList.remove('active');
+    });
+    slides[slide].classList.add('active');
   };
 
   // Next slide
